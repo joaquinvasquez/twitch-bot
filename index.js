@@ -20,10 +20,7 @@ const onMessageHandler = (target, context, msg, self) => {
 
   //!bot
   if (msg === "!bot")
-    client.say(
-      target,
-      `Hola @${context.username}! Pongo el orden en el chat, pa los giles rafagazo 🔪`
-    );
+    client.say(target, `Hola @${context.username}! Pa los giles rafagazo 🔪`);
 
   //Mensaje bienvenida
   if (context["first-msg"])
